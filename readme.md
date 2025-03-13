@@ -12,7 +12,7 @@
 
 준비물: Chrome 계열 브라우저
 
-1. 실행 파일 다운로드: [bin](https://github.com/wirekang/fake-cnu-server/releases)에서 다운받거나 직접 빌드
+1. 실행 파일 다운로드: [bin](https://github.com/wirekang/fake-cnu-server/tree/main/bin)에서 다운받거나 직접 빌드
 
 2. [config.json](https://github.com/wirekang/fake-cnu-server/blob/main/config.json) 다운로드
 
