@@ -1,0 +1,116 @@
+{
+  "port": 12312,
+  "endpoints": [
+    {
+      "path": "/api/v1/user/getUserInfo",
+      "method": "POST",
+      "content": {
+        "header": {
+          "msg": "OK",
+          "code": 200
+        },
+        "body": {
+          "phone_no": null,
+          "insert_dt": null,
+          "role_list": [
+            {
+              "role_no": 5,
+              "role_nm": "학생"
+            }
+          ],
+          "picture_file_path": null,
+          "new_alarm_yn": "N",
+          "user_no": "20999999",
+          "dept_nm": "ㅁㅁ학과",
+          "user_role": "S",
+          "credit_exchange_yn": "N",
+          "user_type": "S",
+          "email": "overrided@example.com",
+          "panopto_saml_login_use_yn": "Y",
+          "univ_name": "ㅁㅁ대학교",
+          "cur_term_cd": 10,
+          "new_message_yn": "Y",
+          "cellphone_no": "010-0000-0000",
+          "cnt_unread_msg": 999,
+          "psdata_chk_dt": "20210902095753",
+          "full_name": "XXX",
+          "user_id": "20999999",
+          "user_role_nm": "학생",
+          "univ_no": "CNU",
+          "cur_term_year": "2025",
+          "grade": "1",
+          "role_nm": "학생",
+          "role_no": "5",
+          "dept_id": "D00148"
+        }
+      }
+    },
+    {
+      "path": "/api/v1/week/getStdTodoCnt",
+      "method": "POST",
+      "content": {
+        "header": { "msg": "OK", "code": 200 },
+        "body": { "todo_count": 99 }
+      }
+    },
+    {
+      "path": "/api/v1/board/getBoardItem/list",
+      "method": "POST",
+      "content": {
+        "header": {
+          "msg": "OK",
+          "code": 200
+        },
+        "body": {
+          "total": 1,
+          "list": [
+            {
+              "row_idx": 1,
+              "rseq": 1,
+              "real_rseq": 31,
+              "real_seq": 31,
+              "week_no": null,
+              "seq_no": null,
+              "study_time": null,
+              "study_open_yn": null,
+              "boarditem_no": "TB_L_BOARDITEM522712",
+              "board_no": "TB_L_BOARD_MNG6",
+              "writeruserno": "sulca674",
+              "upper_boarditem_no": null,
+              "ref_user_no": "sulca674",
+              "boarditem_title": ":::주의::: 공지사항 요청 생략함",
+              "boarditem_orders": 1,
+              "category_id": null,
+              "course_id": null,
+              "class_no": null,
+              "boarditem_viewcnt": 2088,
+              "boarditem_ref": "TB_L_BOARDITEM522712",
+              "boarditem_depth": 1,
+              "board_gubun_nm": "홈페이지용",
+              "board_nm": "알림마당 > 공지사항",
+              "insert_dt": "2025-02-18",
+              "insert_dt_addtime": "2025-02-18 11:12",
+              "writeruser_name": "관리자",
+              "writeruser_phone": "042-821-7297",
+              "category_nm": null,
+              "course_nm": null,
+              "recommand_cnt": 0,
+              "cmt_cnt": 0,
+              "a_cnt": 0,
+              "read_cnt": 48181,
+              "new_yn": "N",
+              "file_yn": 1,
+              "delete_yn": "N",
+              "complete_delete_yn": "N",
+              "open_yn": "Y",
+              "boarditem_share_yn": null,
+              "a_cnt2": 0,
+              "temp_save_yn": null,
+              "attach_file_list": []
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
